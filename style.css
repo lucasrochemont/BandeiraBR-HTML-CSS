@@ -65,3 +65,27 @@ main {
     top: 75px;
     left: -90px;
 }
+
+@media (max-width: 600px) {
+    .losango-top {
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: absolute;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 170px solid #FFE109;
+    top: 0px;
+}
+
+.losango-bot {
+    margin-bottom: 7.3px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: absolute;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-top: 169px solid #FFE109;
+    bottom: 1.7px;
+}
+}
